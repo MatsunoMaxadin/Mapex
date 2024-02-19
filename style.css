@@ -10,7 +10,7 @@
 header{
     background-color: darkgreen;
     color: aliceblue;
-    padding: 10px;
+    
     text-align: center;
     
     
@@ -18,11 +18,12 @@ header{
 }
 
 h1{
-    padding: 9px;
+    padding: 15px;
 }
 
 nav{
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
+    
 }
 
 main{
@@ -32,9 +33,22 @@ main{
 }
 
 button{
-    background-color: #000000;
+    background-color: darkgreen;
+    color: rgb(160, 91, 160);
+    padding: 5px;
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+
+
 }
 
+button:hover{
+    background-color: green;
+}
+
+button:active{
+    background-color: lightgreen;
+}
 img{
     height: 400px;
     border: 1px solid black; 
@@ -51,4 +65,13 @@ footer{
 a{
     text-decoration: none;
     color: green
+}
+
+.nas{
+    padding: 0px 10px;
+}
+
+.nas:hover{
+    background-color: lightgreen;
+    transition-duration: 0.2s;
 }
